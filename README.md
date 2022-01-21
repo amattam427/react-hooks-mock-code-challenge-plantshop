@@ -33,10 +33,17 @@ The base URL for your backend is: `http://localhost:6001`
 
 As a user:
 
-1. When the app starts, I can see all plants.
+<!-- 1. When the app starts, I can see all plants. 
+When pg renders we should be able to see all the plant images, name, price...use GET method to fetch JSON info:: PlantCard, PlantList, PlantPage -->
+
 2. I can add a new plant to the page by submitting the form.
-3. I can mark a plant as "sold out".
-4. I can search for plants by their name and see a filtered list of plants.
+<!-- Add new plant info using POST request & state::NewPlantForm, & PlantPage -->
+
+<!-- 3. I can mark a plant as "sold out".
+toggle between in stock and out of stock:: PlantCard -->
+
+<!-- 4. I can search for plants by their name and see a filtered list of plants.
+Able to search plant name by using the state filter method on plant data. -->
 
 ### Endpoints for Core Deliverables
 
